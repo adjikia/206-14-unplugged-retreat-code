@@ -103,14 +103,6 @@ textarea {
    }
 
 
-address {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-  flex-direction:column;
-}
-
 
 
 
@@ -272,53 +264,23 @@ aside {
 /* ---------------- Mobile Style - About ------------------*/
 /* Mission Styles */
 .mission {
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-}
-
-.mission-content {
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-}
-
-.address {
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-  flex-direction:column;
-}
-
-address.contact {
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-  flex-direction:column;
-}
-
-div.general-information{
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-  flex-direction:column;
-
-}
-.map {
-
 }
 
 .contact-section {
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
 }
+
+.contact-content p {
+  margin: 0;
+}
+
 
 
 /* ---------------- Mobile Style - FAQ ------------------*/
@@ -337,6 +299,9 @@ div.general-information{
   flex-flow: row wrap;
 }
 
+p.faq-answer {
+  margin-bottom:50px;
+}
 
 
 /* ==========================================================================
