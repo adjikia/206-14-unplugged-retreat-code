@@ -88,21 +88,20 @@ textarea {
    ========================================================================== */
 
    /* -------------------- Base Header - Footer Styles -------------------- */
-   header,
-   footer {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   flex-flow: row wrap;
-   }
 
    .content-wrapper {
-     display:flex;
+     width: 90%;
+     margin: 50px 0;
+   }
+
+   header,
+   footer {
+     display: flex;
      justify-content: center;
      align-items: center;
      flex-flow: row wrap;
-     flex-direction:column;
    }
+
 
 address {
   display: flex;
@@ -112,11 +111,14 @@ address {
   flex-direction:column;
 }
 
+
+
+
 /* CONSISTENT STYLES */
 /* Header Styles */
 
 header {
-
+  padding: 15px 0;
 }
 
 header .content-wrapper {
@@ -124,19 +126,22 @@ header .content-wrapper {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  margin:0;
 }
 
 header nav {
-  display:flex;
+  display: flex;
   justify-content: space-around;
   align-items: center;
+  flex-flow: row wrap;
+  width:60%;
 }
 
 header nav ul {
   display:flex;
   justify-content: space-around;
   align-items: center;
-
+  width:100%;
 }
 
 .hero-area {
@@ -145,7 +150,9 @@ header nav ul {
 }
 
 .header-divider {
-
+  width: 100%;
+  height: 1px;
+  margin: 10px 0 20px 0;
 }
 
 
@@ -172,6 +179,9 @@ footer .social {
   flex-flow: row wrap;
 }
 
+header .content-wrapper {
+  margin:0;
+}
 
 .footer-content {
   display:flex;
@@ -182,17 +192,28 @@ footer .social {
 }
 
 
+footer .content-wrapper {
+  width:55%;
+  margin:50px 0;
+}
 
+footer .contact {
+  margin-bottom: 50px;
+}
 
+footer .social-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
 
 /* ---------------- Mobile Style - Homepage ------------------*/
 
 
 /* Hero Styles */
 .hero-area {
-  display:flex;
+  display: flex;
   justify-content: center;
-  align-items: center;
   flex-flow: row wrap;
 }
 
@@ -223,6 +244,11 @@ aside {
 
 
 
+.features article {
+  width:65%;
+}
+
+
 /* Reviews Styles */
 .reviews {
   display:flex;
@@ -238,17 +264,10 @@ aside {
   flex-flow: row wrap;
 }
 
-article {
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
+
+.reviews h3 {
+  width:50%;
 }
-
-
-
-
-
 
 /* ---------------- Mobile Style - About ------------------*/
 /* Mission Styles */
