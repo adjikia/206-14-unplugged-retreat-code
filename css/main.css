@@ -178,7 +178,7 @@ header .content-wrapper {
 .footer-content {
   display:flex;
   justify-content: center;
-  align-items: center;
+  align-items: start  ;
   flex-flow: row wrap;
   flex-direction:column;
 }
@@ -407,7 +407,7 @@ p.faq-answer {
 
   .content-wrapper {
     max-width: 640px;
-    margin: 100px 0;
+    margin: 50px 0;
 }
 
   .header-divider {
@@ -417,7 +417,7 @@ p.faq-answer {
   .footer-content {
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: start;
     flex-flow: row wrap;
   }
 
@@ -491,14 +491,23 @@ aside .content-wrapper {
 /*Base Styles*/
 
   .content-wrapper {
-    max-width: ;
-    margin: 100px 0;
+    max-width: 960px;
+    margin: 50px 0;
 }
 
 /*Home Page Styles*/
+.features article {
+    flex-basis: 20%;
+  }
+
+  footer .content-wrapper {
+      width: 85%;
+    }
 
 /*About Page Styles*/
-
+.contact-content{
+  padding-right: 250px;
+}
 
 /*FAQ Page Styles*/
 
