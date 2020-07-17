@@ -199,6 +199,14 @@ footer .social-icons {
   align-items: center;
 }
 
+address.contact {
+  display: flex;
+flex-flow: wrap;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
 /* ---------------- Mobile Style - Homepage ------------------*/
 
 
@@ -392,16 +400,115 @@ p.faq-answer {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
+/* ****** TABLET ****** */
+@media only screen and (min-width: 768px) {
+
+  /*Base Styles*/
+
+  .content-wrapper {
+    max-width: 640px;
+    margin: 100px 0;
 }
 
-@media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
-  /* Style adjustments for high resolution devices */
+  .header-divider {
+    display:none;
+  }
+
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+
+  /*Home Page Styles*/
+
+aside .content-wrapper {
+  display:flex;
+  justify-content:space-between;
+  flex-flow:nowrap;
 }
+
+.features .features-items {
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+  flex-flow:wrap;
+}
+
+.features article {
+    flex-basis: 35%;
+    padding:4%;
+  }
+
+  .reviews-content {
+      display: flex;
+      justify-content: left;
+}
+
+/*About Page Styles*/
+.mission-content {
+     display:flex;
+     justify-content: space-between;
+     align-content:flex-start;
+ }
+
+ .mission-content p {
+     width: 45%;
+ }
+
+ .contact-section .content-wrapper h2 {
+     width:75%
+ }
+
+ .contact-content {
+     display:flex;
+     justify-content:space-between;
+     align-items:start;
+     padding-right:100px;
+}
+
+/*FAQ Page Styles*/
+.faq .content-wrapper {
+    justify-content: space-between;
+}
+
+.faq-content {
+    flex-basis: 40%;
+}
+
+.faq h2 {
+    width: 100%;
+}
+
+}
+
+
+
+/* ****** DESKTOP ****** */
+@media only screen and (min-width: 1200px) {
+
+/*Base Styles*/
+
+  .content-wrapper {
+    max-width: ;
+    margin: 100px 0;
+}
+
+/*Home Page Styles*/
+
+/*About Page Styles*/
+
+
+/*FAQ Page Styles*/
+
+
+}
+
+
+
+
+
 
 /* ==========================================================================
    Print styles.
