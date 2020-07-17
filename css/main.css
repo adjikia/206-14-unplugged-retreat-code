@@ -87,6 +87,61 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+   /* General Styles */
+
+   html {
+     font-size:16px;
+   }
+
+   body {
+     font-family: 'Open Sans', sans-serif;
+     font-size:1em;
+     color:#e2e3ed;
+   }
+
+   ul,
+   ol {
+     list-style: none;
+   }
+
+   a {
+     color: #e2e3ed;
+     text-decoration: none;
+   }
+
+   h1 {
+     font-size:2.25em;
+   }
+
+   h2 {
+     font-size: 1.875em;
+   }
+
+   h3,
+   h4 {
+     font-size:1.125em;
+   }
+
+   p {
+     line-height: 140%;
+   }
+
+   img {
+
+   }
+
+   figure {
+
+   }
+
+   address {
+     font-style: normal;
+   }
+
+   .content-wrapper {
+
+   }
+
    /* -------------------- Base Header - Footer Styles -------------------- */
 
    .content-wrapper {
@@ -100,6 +155,7 @@ textarea {
      justify-content: center;
      align-items: center;
      flex-flow: row wrap;
+     background-color:#202322;
    }
 
 
@@ -138,7 +194,7 @@ header nav ul {
 }
 
 .hero-area {
-
+  background-color:#527158;
 }
 
 .header-divider {
@@ -255,6 +311,7 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color:#2a423a;
 }
 
 .reviews-content {
