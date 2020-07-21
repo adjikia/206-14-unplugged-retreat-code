@@ -127,6 +127,7 @@ textarea {
      font-size:1.125em;
      font-family: 'Poppins', sans-serif;
      font-weight: 500;
+     margin:0;
    }
 
    p {
@@ -512,6 +513,10 @@ input[type=button] {
 
   /*Base Styles*/
 
+header figure {
+  width:30%;
+}
+
   .content-wrapper {
     max-width: 640px;
     margin: 20px 0;
@@ -530,10 +535,21 @@ input[type=button] {
 
   /*Home Page Styles*/
 
+
 aside .content-wrapper {
   display:flex;
   justify-content:space-between;
   flex-flow:nowrap;
+  align-items: flex-start;
+}
+
+div.form-description {
+    width: 50%;
+    padding-right: 10%;
+    display: flex;
+    align-content: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
 }
 
 .features .features-items {
@@ -551,6 +567,15 @@ aside .content-wrapper {
   .reviews-content {
       display: flex;
       justify-content: left;
+}
+
+.reviews article {
+  display:flex;
+  justify-content: space-around;
+}
+
+.reviews-image  {
+  padding-right:10px;
 }
 
 /*About Page Styles*/
@@ -588,6 +613,13 @@ aside .content-wrapper {
     width: 100%;
 }
 
+h1 {
+  margin:0.67em 0;
+}
+
+div.newsletter-signup h3 {
+  margin-top:0;
+}
 }
 
 
@@ -597,15 +629,47 @@ aside .content-wrapper {
 
 /*Base Styles*/
 
+html {
+  font-size:18px;
+}
+
+h1 {
+  font-size:3.33em;
+}
+
+h3, h4 {
+  font-size:1.66em;
+  margin:0px;
+}
+
   .content-wrapper {
     max-width: 960px;
     margin: 50px 0;
 }
 
 /*Home Page Styles*/
+
+.hero-area {
+  height:600px;
+}
+
+
+div.form-description {
+  width:30%;
+}
+
 .features article {
     flex-basis: 20%;
   }
+
+
+div.reviews-text {
+  width:100%;
+}
+
+.reviews-image {
+  padding-right:30px;
+}
 
   footer .content-wrapper {
       width: 85%;
