@@ -263,6 +263,9 @@ justify-content: center;
 align-items: center;
 }
 
+address.contact p {
+  margin-top:40px;
+}
 address.socials {
   display: flex;
 flex-flow: wrap;
@@ -270,6 +273,16 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 }
+
+.social i {
+    font-size: 2.5em;
+    padding: 10px;
+    margin: 40px;
+    color: #e2e3ed;
+    background-color: #2a423a;
+    border-radius: 100%;
+}
+
 /* ---------------- Mobile Style - Homepage ------------------*/
 
 
@@ -326,6 +339,11 @@ div.newsletter-signup h3 {
   text-align: center;
 }
 
+
+.features i {
+  font-size: 3.75em;
+  margin-bottom: 40px;
+}
 
 /* Reviews Styles */
 .reviews {
@@ -555,10 +573,7 @@ header figure {
   }
 
 
-  .features i {
-  	font-size: 3.75em;
-    margin-bottom: 40px;
-  }
+
 
   /*Home Page Styles*/
 
