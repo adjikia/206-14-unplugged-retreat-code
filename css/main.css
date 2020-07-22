@@ -554,6 +554,12 @@ header figure {
     flex-flow: row wrap;
   }
 
+
+  .features i {
+  	font-size: 3.75em;
+    margin-bottom: 40px;
+  }
+
   /*Home Page Styles*/
 
 
@@ -597,6 +603,11 @@ div.form-description {
 
 .reviews-image  {
   padding-right:10px;
+  margin:0;
+}
+
+.reviews h3 {
+  width:100%;
 }
 
 /*About Page Styles*/
