@@ -113,6 +113,8 @@ textarea {
      font-size:2.25em;
      font-weight:500;
      margin: -0.33em 0;
+     font-family: 'Poppins', sans-serif;
+
    }
 
    h2 {
@@ -416,6 +418,8 @@ div.chat-facilitator {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color:#527158;
+  padding-top:40px;
 }
 
 .faq-content {
@@ -573,7 +577,11 @@ header figure {
   }
 
 
-
+  .social i {
+      font-size: 1em;
+      padding: 10px;
+      margin: 20px;
+    }
 
   /*Home Page Styles*/
 
@@ -652,6 +660,7 @@ div.form-description {
 }
 
 /*FAQ Page Styles*/
+
 .faq .content-wrapper {
     justify-content: space-between;
 }
